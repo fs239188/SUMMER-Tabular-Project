@@ -32,7 +32,7 @@ Data_Preprocessing_chall -cleaning and preparing the dataset, staging it for mac
 Machine_learning_chall -Creates the model and evaluating the perfomance.  
 
 # *Preprocessing / Clean up*
-I dropped 3 columns including lesion_3. This column failed the chi square test(hypothesis test used to determine if there is a significant association between two categorical variables).  
+I dropped 3 columns including lesion_3. This column failed the chi square test(hypothesis test used to determine if there is a significant association between two categorical variables). It is redundant since it doesn't add any new information to the model. It can lead to unnecessary complexity without any benefit. 
 
 Engineering- I one-hot encoded categorical columns. Label encoded the target column.  
 
@@ -42,8 +42,12 @@ Engineering- I one-hot encoded categorical columns. Label encoded the target col
 ![image](https://github.com/user-attachments/assets/6e65b89f-d48d-4995-84fc-a8cf78522986)  
 ![image](https://github.com/user-attachments/assets/547bc6e7-71b4-404e-b92b-b2511c1b9d1d)  
 
-The first visual image is a bar plot that represents how many times each category of the 'outcome' variable appears in the dataset. This plot is useful for understanding the distribution of the target variable, especially in classification tasks to see how balanced the classes are.  
-The second visual image 
+The first visual image is a grid of count plots for categorical variables of few unique values, showing the distribution of each categorical variable in relation to the target variable outcome. It maximizes readability.
+
+The second visual image is a bar plot that represents how many times each category of the 'outcome' variable appears in the dataset. This plot is useful for understanding the distribution of the target variable, especially in classification tasks to see how balanced the classes are.  
+
+The third visual is a histogram of lesion_3, this col has no variability; all or almost all of its values are zero. 
+
 
 
 # *Training*
