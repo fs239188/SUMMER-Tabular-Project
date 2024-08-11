@@ -23,13 +23,13 @@ Summary of performance: The metrics used to evaluate the model performance were 
 
 # *Relevent files and role in the package.*  
 
-Data_exploration_chall -Loading the dataset and exploring the information about the dataset.
+Data_exploration -Loading the dataset and exploring the information about the dataset.
 
-Data_visualization_chall -contains visualizations to better understand and interpret data.
+Data_visualization -contains visualizations to better understand and interpret data.
 
-Data_Preprocessing_chall -cleaning and preparing the dataset, staging it for machine learning model.
+processing and machine learning -cleaning and preparing the dataset, staging it for machine learning model. Creates the model and evaluating the perfomance  
 
-Machine_learning_chall -Creates the model and evaluating the perfomance.  
+
 
 # *Preprocessing / Clean up*
 I dropped 3 columns including lesion_3. This column failed the chi square test(hypothesis test used to determine if there is a significant association between two categorical variables). It is redundant since it doesn't add any new information to the model. It can lead to unnecessary complexity without any benefit. 
