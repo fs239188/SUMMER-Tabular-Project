@@ -1,5 +1,5 @@
 # SUMMER-Tabular-Project
-# *DATA*  
+## *DATA*  
 https://www.kaggle.com/competitions/playground-series-s3e22/data?select=train.csv  
 
 
@@ -9,7 +9,7 @@ Definition of the challenge: The challenge is defined by kaggle and its objectiv
 
 
 
-## *Software Setup*
+### *Software Setup*
 Library: numpy, scikit learn, pandas, matplotlib,spicy stats.  
 
 
