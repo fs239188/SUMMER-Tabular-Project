@@ -8,5 +8,5 @@ Definition of the challenge: The challenge is defined by kaggle and its objectiv
 
 
 
-#*Citation*  
+# *Citation*  
 Walter Reade, Ashley Chow. (2023). Predict Health Outcomes of Horses. Kaggle. https://kaggle.com/competitions/playground-series-s3e22
