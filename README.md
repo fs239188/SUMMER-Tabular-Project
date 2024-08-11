@@ -66,7 +66,7 @@ Describe the training: I used Random Forest because it's a robust and versatile 
 In this study on horse health prediction, we aimed to classify outcomes as "lived," "died," or "euthanized" based on various health indicators. A chi-square test was conducted to examine the relationships between categorical variables, and outliers were retained to preserve the integrity of the dataset. Random Forest was employed as the machine learning model due to its robustness in handling complex datasets. The model achieved a precision of 72%, recall of 69%, and accuracy of 69%, demonstrating a reasonable level of performance in predicting horse health outcomes. These results suggest that while the model performs moderately well, further optimization and additional data may enhance predictive accuracy.  
 
 # *Future Work*
-Hyperparameter tuning.
+stricter hyperparameter tuning.
 Feature engineering to create more informative features e.g a col with the 3 lesion avg.
 Trying other algorithms like XGBoost.
 Studies that can be done from here are:
