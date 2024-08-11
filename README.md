@@ -36,8 +36,14 @@ I dropped 3 columns including lesion_3. This column failed the chi square test
 
 #* Visualizations*
 ![image](https://github.com/user-attachments/assets/b25aa411-7289-41b2-aa4d-88f4b8685057)  
+![image](https://github.com/user-attachments/assets/6e65b89f-d48d-4995-84fc-a8cf78522986)
+
 
 #* MACHINE LEARNING*  
+![image](https://github.com/user-attachments/assets/601237a2-7898-4592-b867-4543106f2062)  
+![image](https://github.com/user-attachments/assets/46650536-ed17-46f5-bf6c-0f37b7a06473)
+
+
 ![image](https://github.com/user-attachments/assets/7d18d7d9-3340-4f1a-9a24-62629485dc8c)
 
 
