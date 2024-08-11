@@ -17,7 +17,7 @@ Input: CSV file of features
 
 output: smoker/non-smoker flag in 1st column.
 
-Size: 29.2 MB, 1236 rows and 29 columns Instances (Train, Test, Validation Split): how many data points? : 82248 individuals training, 27417 for testing, 27417 for validation
+Size: 377 KB, 1236 rows and 29 columns Instances (Train, Test, Validation Split)
 
 Summary of performance: The metrics used to evaluate the model performance were F-1 score, recall, accuracy, ROC Curve and confusion matrix.
 
@@ -31,10 +31,16 @@ Data_Preprocessing_chall -cleaning and preparing the dataset, staging it for mac
 
 Machine_learning_chall -Creates the model and evaluating the perfomance.  
 
-#*Preprocessing / Clean up*
-I dropped 3 columns including lesion_3. This column failed the chi square test
+# *Preprocessing / Clean up*
+I dropped 3 columns including lesion_3. This column failed the chi square test(hypothesis test used to determine if there is a significant association between two categorical variables).  
 
-#* Visualizations*
+Engineering- I one-hot encoded categorical columns. Label encoded the target column.  
+
+# *Training*
+Describe the training: I used Random Forest because it's a robust and versatile ensemble learning method that combines multiple decision trees to improve accuracy and reduce the risk of overfitting. Random Forest works well with both classification and regression tasks, handles various data types, and is particularly effective in dealing with noisy or imbalanced datasets. I trained the model by first splitting the dataset into training and test sets, split into typical 80-20. Then, I used the RandomForestClassifier from scikit-learn, setting the number of trees (n_estimators) to 80. The model was trained on the training data to learn patterns, and its performance was evaluated on the test data, where I predicted the probabilities of the classes and used them to generate ROC curves for each class in a multiclass classification scenario. Any difficulties? How did you resolve them? There was no difficulties while training but having to divide into classes took me some time.
+
+
+# * Visualizations*
 ![image](https://github.com/user-attachments/assets/b25aa411-7289-41b2-aa4d-88f4b8685057)  
 ![image](https://github.com/user-attachments/assets/6e65b89f-d48d-4995-84fc-a8cf78522986)
 
