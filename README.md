@@ -35,7 +35,11 @@ Machine_learning_chall -Creates the model and evaluating the perfomance.
 I dropped 3 columns including lesion_3. This column failed the chi square test
 
 #* Visualizations*
-![image](https://github.com/user-attachments/assets/b25aa411-7289-41b2-aa4d-88f4b8685057)
+![image](https://github.com/user-attachments/assets/b25aa411-7289-41b2-aa4d-88f4b8685057)  
+
+#* MACHINE LEARNING*  
+![image](https://github.com/user-attachments/assets/7d18d7d9-3340-4f1a-9a24-62629485dc8c)
+
 
 
 
