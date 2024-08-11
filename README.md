@@ -45,7 +45,7 @@ Engineering- I one-hot encoded categorical columns. Label encoded the target col
 Describe the training: I used Random Forest because it's a robust and versatile ensemble learning method that combines multiple decision trees to improve accuracy and reduce the risk of overfitting. Random Forest works well with both classification and regression tasks, handles various data types, and is particularly effective in dealing with noisy or imbalanced datasets. I trained the model by first splitting the dataset into training and test sets, split into typical 80-20. Then, I used the RandomForestClassifier from scikit-learn, setting the number of trees (n_estimators) to 80. The model was trained on the training data to learn patterns, and its performance was evaluated on the test data, where I predicted the probabilities of the classes and used them to generate ROC curves for each class in a multiclass classification scenario. Any difficulties? How did you resolve them? There was no difficulties while training but having to divide into classes took me some time.
 
 
-#* MACHINE LEARNING*  
+# * MACHINE LEARNING*  
 ![image](https://github.com/user-attachments/assets/601237a2-7898-4592-b867-4543106f2062)  
 ![image](https://github.com/user-attachments/assets/46650536-ed17-46f5-bf6c-0f37b7a06473)
 
@@ -53,8 +53,18 @@ Describe the training: I used Random Forest because it's a robust and versatile 
 ![image](https://github.com/user-attachments/assets/7d18d7d9-3340-4f1a-9a24-62629485dc8c)
 
 
-#*CONCLUSION*
-In this study on horse health prediction, we aimed to classify outcomes as "lived," "died," or "euthanized" based on various health indicators. A chi-square test was conducted to examine the relationships between categorical variables, and outliers were retained to preserve the integrity of the dataset. Random Forest was employed as the machine learning model due to its robustness in handling complex datasets. The model achieved a precision of 72%, recall of 69%, and accuracy of 69%, demonstrating a reasonable level of performance in predicting horse health outcomes. These results suggest that while the model performs moderately well, further optimization and additional data may enhance predictive accuracy.
+# *CONCLUSION*
+In this study on horse health prediction, we aimed to classify outcomes as "lived," "died," or "euthanized" based on various health indicators. A chi-square test was conducted to examine the relationships between categorical variables, and outliers were retained to preserve the integrity of the dataset. Random Forest was employed as the machine learning model due to its robustness in handling complex datasets. The model achieved a precision of 72%, recall of 69%, and accuracy of 69%, demonstrating a reasonable level of performance in predicting horse health outcomes. These results suggest that while the model performs moderately well, further optimization and additional data may enhance predictive accuracy.  
+
+# *Future Work*
+Hyperparameter tuning.
+Feature engineering to create more informative features e.g a col with the 3 lesion avg.
+Trying other algorithms like XGBoost.
+Studies that can be done from here are:
+
+Ensemble Methods: Combine predictions from multiple models (e.g., Decision Tree, XGBoost, Logistic Regression) using techniques like bagging or boosting to create a more robust and accurate model.
+
+External Validation: Corroborate the model on an independent dataset to assess its generalizability and performance on similar unseen data.
 
 ### *Software Setup*
 Library: numpy, scikit learn, pandas, matplotlib,spicy stats.  
